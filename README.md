@@ -1,2 +1,2 @@
-# model-kompetisi-dua-populasi
+# Model Kompetisi Dua Populasi
 Tugas Pengantar Sistem Dinamik
