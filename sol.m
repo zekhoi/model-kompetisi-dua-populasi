@@ -1,4 +1,4 @@
-% Solusi Model Mangsa Pemangsa
+% Solusi Model Kompetisi Dua Populasi
 
 % Membersihkan window
 clear all; close all; clc
