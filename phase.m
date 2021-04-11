@@ -36,9 +36,6 @@ for y0=0:10:100
 	plot(ys(end,1),ys(end,2),'rs','Linewidth',2.0) % ending point
 end
 
-
-
-
 hold off
 
 xlabel('Jumlah Populasi (N)');
