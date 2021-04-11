@@ -1,4 +1,4 @@
-% Potret Fase Model Mangsa Pemangsa
+% Potret Fase Model Kompetisi Dua Populasi
 % Membersihkan window
 clear all; close all; clc
 
