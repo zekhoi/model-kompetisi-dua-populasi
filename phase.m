@@ -13,7 +13,7 @@ b21 = 0.001;
 b22 = 0.003;
 waktu = [0, 100];
 
-% Plot isoclines dan lintasan bidang fase tertutup untuk memodelkan sistem persamaan Mangsa-Pemangsa Lotka-Volterra:
+% Plot isoclines dan lintasan bidang fase untuk memodelkan sistem persamaan:
 x1dot = x1.*(a1-b11.*x1-b12.*x2);
 x2dot = x2.*(a2-b21.*x1-b22.*x2);
 
@@ -27,7 +27,7 @@ f = @(t,y) [y(1).*(a1-b11.*y(1)-b12.*y(2)); y(2).*(a2-b21.*y(1)-b22.*y(2))];
 
 hold on
 
-% Menghitung fase potrait untuk kondisi awal yang berbeda dan plot lintasan fase dari loop tertutup
+% Menghitung fase potrait untuk kondisi awal yang berbeda dan plot lintasan fase 
 
 for y0=0:10:100
 	[ts, ys] = ode45(f, waktu, [y0/2, y0]);
